@@ -14,7 +14,7 @@ public class Minister {
 
         for (int i = 0; i < ministerNum; i++) {
             Emperor emperor = Emperor.getInstance();
-            System.out.println("第" + (i+1) + "个大臣惨败的是：");
+            System.out.println("第" + (i+1) + "个大臣参拜的是：");
             emperor.emperorInfo();
         }
     }
