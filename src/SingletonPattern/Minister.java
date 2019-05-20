@@ -10,9 +10,17 @@ package SingletonPattern;
  */
 public class Minister {
 
-    public static void main() {
+    public static void main(String[] args) {
         //第一天
         Emperor emperor = Emperor.getInstance();
         emperor.emperorInfo();//第一天见得皇帝叫什么名字？
+
+        //第二天
+        Emperor emperor1 = Emperor.getInstance();
+        emperor1.emperorInfo();
+
+        //第三天
+        Emperor emperor2 = Emperor.getInstance();
+        emperor2.emperorInfo();
     }
 }
